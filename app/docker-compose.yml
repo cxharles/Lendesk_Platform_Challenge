@@ -2,7 +2,9 @@ version: '3.8'
 
 services:
   app:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: flask-app
     environment:
       - DATABASE_URL=postgresql://postgres:postgres@db:5432/postgres
@@ -11,6 +13,9 @@ services:
     depends_on:
       - db
     restart: always
+    # Commented or corrected volume:
+    # volumes:
+    #   - ./app:/app
 
   db:
     image: postgres:15
