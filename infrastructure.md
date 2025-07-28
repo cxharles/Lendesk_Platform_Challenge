@@ -6,7 +6,7 @@ My high level AWS design of Part 1: Docker + Github Action will look like this:
 
 Prerequisites:
 Version control system (GitHub)
-AWS Account
+AWS Account 
 VPC (Virtual Private Cloud)
 ECR (Elastic Container Registry)
 EKS (Elastic Kubernetes Service)
