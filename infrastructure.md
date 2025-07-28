@@ -1,7 +1,6 @@
 Part 2: AWS Design
 
 Author: Charles Jatto
-
 My high level AWS design of Part 1: Docker + Github Action will look like this:
 
 Prerequisites:
